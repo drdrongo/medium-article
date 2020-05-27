@@ -1,7 +1,7 @@
 @media(max-width: 1200px) {
   .container {
     padding: 0 120px;
-    width: 840px;
+    width: 700px;
   }
 }
 
@@ -37,7 +37,8 @@
 }
 
 .container {
-  margin: 50px;
+  margin: 50px auto;
+  width: 700px;
 }
 
 h1 {
@@ -49,7 +50,7 @@ h1 {
 
 .banner h2 {
   font-family: 'Playfair Display', serif;
-  color: lightgrey;
+  color: white;
   line-height: 32px;
 }
 
@@ -66,3 +67,16 @@ p {
   line-height: 1.4;
 }
 
+.quote {
+  text-decoration: none;
+  color: #494949;
+  font-family: 'Playfair Display', serif;
+  padding: 2px;
+  font-size: 32px;
+  background-color: rgba(234,212,197,.5);
+}
+
+.quote:hover {
+  background-color: rgba(234,212,197,1);
+font-weight: bolder;
+}
